@@ -1,12 +1,17 @@
 {
     "name": "mithleshjs/laravel-parse-sdk",
-    "description": "Parse Is A Parse SDK Bridge For Laravel 5",
-    "keywords": ["laravel", "framework", "parse", "parse-sdk", "parse sdk", "ParseSDK", "parse bridge", "parse sdk bridge", "bridge", "Parse", "Laravel Parse", "Laravel-Parse", "Graham Campbell", "GrahamCampbell"],
+    "description": "Parse SDK Bridge for Laravel with support for self-hosted Parse Server",
+    "keywords": ["laravel", "parse-server","framework", "parse", "parse-sdk", "parse sdk", "ParseSDK", "parse bridge", "parse sdk bridge", "bridge", "Parse", "Laravel Parse", "Laravel-Parse", "Graham Campbell", "GrahamCampbell"],
     "license": "MIT",
     "authors": [
         {
             "name": "Graham Campbell",
             "email": "graham@alt-three.com"
+        },
+        
+        {
+            "name": "Mithlesh",
+            "email": "mithleshjs@gmail.com"
         }
     ],
     "require": {
