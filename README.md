@@ -22,7 +22,7 @@ Either [PHP](https://php.net) 5.5+ or [HHVM](http://hhvm.com) 3.6+ are required.
 To get the latest version of Laravel Parse, simply require the project using [Composer](https://getcomposer.org):
 
 ```bash
-$ composer require graham-campbell/parse
+$ composer require mithleshjs/laravel-parse-sdk
 ```
 
 Instead, you may of course manually update your require block and run `composer update` if you so choose:
@@ -30,7 +30,7 @@ Instead, you may of course manually update your require block and run `composer 
 ```json
 {
     "require": {
-        "graham-campbell/parse": "^2.0"
+        "mithleshjs/laravel-parse-sdk": "^2.4"
     }
 }
 ```
@@ -66,6 +66,9 @@ This option (`'rest_key'`) is where you may specify your parse rest key. The def
 
 This option (`'master_key'`) is where you may specify your parse master key. The default value for this setting is `'your-master-key'`.
 
+##### Parse Server URL
+
+This option (`'server_url'`) is where you may specify your parse server url. The default value for this setting is `'your-server-url'`.
 
 ## Usage
 
